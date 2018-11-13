@@ -205,10 +205,10 @@ Our vision of good CI-infrastructure or the values of our project:
 </table>
 
 
-## On Ubuntu 18.04
+## On host OS (Ubuntu 18.04)
 - Install host OS manually on your machine
 ```
-sudo apt-get install openssh-server mc net-tools nginx
+sudo apt-get install openssh-server mc net-tools nginx screen
 sudo apt install python3-pip
 
 sudo nano /etc/nginx/nginx.conf
@@ -217,6 +217,10 @@ service nginx restart
 # Add new user
 sudo adduser infra-deploy #without adding to sudoers
 users #check list of users
+```
+- Install QEMU which will be used for virtualization
+```
+sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 ```
 
 ## On virtual machines
