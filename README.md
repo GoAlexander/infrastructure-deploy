@@ -150,7 +150,8 @@ Our vision of good CI-infrastructure or the values of our project:
 <p>Centralized configuration</p>
 <p>Administrators are responsible for security</p>
 <p>Processes static content</p>
-<p>Has proxy server</p>          
+<p>Has proxy server</p>
+</td>
 <td class="tg-0pky">&nbsp;</td>
 <td class="tg-0pky">Will be used for artifacts sharing</td>
 </tr>
