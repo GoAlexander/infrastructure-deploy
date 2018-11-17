@@ -144,14 +144,7 @@ Our vision of good CI-infrastructure or the values of our project:
 <tr>
 <td class="tg-0pky" rowspan="2">Web Server</td>
 <td class="tg-fymr"><strong>nginx</strong></td>
-<td class="tg-0pky">&nbsp;</td>
-<p>Documentation and support</p>
-<p>Modularity</p>
-<p>Centralized configuration</p>
-<p>Administrators are responsible for security</p>
-<p>Processes static content</p>
-<p>Has proxy server</p>
-</td>
+<td class="tg-0pky">Documentation and support<br /> modularity</td>
 <td class="tg-0pky">&nbsp;</td>
 <td class="tg-0pky">Will be used for artifacts sharing</td>
 </tr>
