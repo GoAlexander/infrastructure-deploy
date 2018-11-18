@@ -106,7 +106,7 @@ Our vision of good CI-infrastructure or the values of our project:
 <tr>
 <td class="tg-0pky" rowspan="2">Provisioning</td>
 <td class="tg-fymr"><strong>Ansible</strong></td>
-<td class="tg-0pky">does not require installation of agents on managed nodes</td>
+<td class="tg-0pky">does not require installation of agents on managed nodes; ow threshold of entry; Modules can be written in almost any language;The web interface allows you to customize users, teams and equipment, use scripts; script language is pretty simple;Installing Python version 2.4 or higher; good documentation;</td>
 <td class="tg-0pky">&nbsp;</td>
 <td class="tg-0pky">&nbsp;</td>
 </tr>
