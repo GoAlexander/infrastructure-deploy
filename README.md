@@ -28,7 +28,7 @@ Our vision of good CI-infrastructure or the values of our project:
 <td class="tg-fymr"><strong>Buildbot</strong></td>
 <td class="tg-0pky">More freedom and power<br />No UI to configure</td>
 <td class="tg-0pky">Higher costs at the start<br />No sub-service to collect artifacts</td>
-<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">Open Source</td>
 </tr>
 <tr>
 <td class="tg-0pky">TeamCity</td>
@@ -38,14 +38,14 @@ Our vision of good CI-infrastructure or the values of our project:
 </tr>
 <tr>
 <td class="tg-0pky">Jenkins</td>
-<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">Open Source</td>
 <td class="tg-0pky">&nbsp;</td>
 <td class="tg-0pky">&nbsp;</td>
 </tr>
 <tr>
 <td class="tg-0pky">Travis CI</td>
 <td class="tg-0pky">Free for Open Source<br />Is a service<br /><br /></td>
-<td class="tg-0pky">&nbsp;Only for Github</td>
+<td class="tg-0pky">Only for Github-hosted repositories</td>
 <td class="tg-0pky">&nbsp;</td>
 </tr>
 <tr>
@@ -112,7 +112,7 @@ The web interface is not automatically linked to an existing Ansible installatio
 <td class="tg-0pky">&nbsp;</td>
 </tr>
 <tr>
-<td class="tg-0pky">?</td>
+<td class="tg-0pky">TBD</td>
 <td class="tg-0pky">&nbsp;</td>
 <td class="tg-0pky">&nbsp;</td>
 <td class="tg-0pky">&nbsp;</td>
@@ -133,13 +133,7 @@ The web interface is not automatically linked to an existing Ansible installatio
 <tr>
 <td class="tg-0pky">Gerrit + Jira</td>
 <td class="tg-0pky">&nbsp;</td>
-<td class="tg-0pky">&nbsp;</td>
-<td class="tg-0pky">&nbsp;</td>
-</tr>
-<tr>
-<td class="tg-0pky">?</td>
-<td class="tg-0pky">&nbsp;</td>
-<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">Outdated. Poor social features.</td>
 <td class="tg-0pky">&nbsp;</td>
 </tr>
 <tr>
@@ -159,8 +153,8 @@ The web interface is not automatically linked to an existing Ansible installatio
 <td class="tg-0pky" rowspan="2">Monitoring</td>
 <td class="tg-fymr"><strong>Zabbix</strong></td>
 <td class="tg-0pky">
-<p>Community supported</p>
-<p>Easy to understand</p>
+<p>Active community support</p>
+<p>Good documentation</p>
 <p>SNMP</p>
 <p>Agents</p>
 </td>
@@ -172,13 +166,13 @@ The web interface is not automatically linked to an existing Ansible installatio
 </tr>
 <tr>
 <td class="tg-0pky">Icinga 2</td>
-<td class="tg-0pky">compatible with Nagios, easy to integrate, parallel processes.</td>
-<td class="tg-0pky">have to develope modules, hard to understand, complex for small systems.</td>
+<td class="tg-0pky">compatible with Nagios, easy to integrate, parallel processes</td>
+<td class="tg-0pky">sometimes need to develop your own modules, poor documentation, complex for small systems</td>
 <td class="tg-0pky">&nbsp;</td>
 </tr>
 <tr>
 <td class="tg-0pky">Build System</td>
-<td class="tg-0pky">?</td>
+<td class="tg-0pky">TBD</td>
 <td class="tg-0pky">&nbsp;</td>
 <td class="tg-0pky">&nbsp;</td>
 <td class="tg-0pky">&nbsp;</td>
@@ -197,7 +191,7 @@ The web interface is not automatically linked to an existing Ansible installatio
 <td class="tg-0pky">&nbsp;</td>
 </tr>
 <tr>
-<td class="tg-0lax">?</td>
+<td class="tg-0lax">TBD</td>
 <td class="tg-0lax">&nbsp;</td>
 <td class="tg-0lax">&nbsp;</td>
 <td class="tg-0lax">&nbsp;</td>
