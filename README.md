@@ -141,7 +141,9 @@ The web interface is not automatically linked to an existing Ansible installatio
 <td class="tg-fymr"><strong>Nginx</strong></td>
 <td class="tg-0pky">Documentation and support<br />Modularity<br />Centralized configuration<br />Administrators are responsible for security<br />Has proxy server</td>
 <td class="tg-0pky">Processes only static content</td>
-<td class="tg-fymr"><strong>Apache</strong></td>
+</tr>
+<tr>
+<td class="tg-0pky">Apache</td>
 <td class="tg-0pky">Documentation and support<br />Modularity<br />Distributed configuration<br />Processes dynamic and static content</td>
 <td class="tg-0pky">Distributed configuration<br />Users are responsible for security </td>
 <td class="tg-0pky">&nbsp;</td>
