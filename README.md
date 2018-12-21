@@ -139,6 +139,7 @@ The web interface is not automatically linked to an existing Ansible installatio
 <tr>
 <td class="tg-0pky">Web Server</td>
 <td class="tg-fymr"><strong>NGNX</strong></td>
+<td class="tg-0pky">Documentation and support<br />Modularity<br />Centralized configuration<br />Administrators are responsible for security<br />Has proxy server</td>
 <td class="tg-0pky">Processes only static content</td>
 <td class="tg-0pky">Will be used for artifacts sharing. Link: https://stackshare.io/stackups/apache-httpd-vs-microsoft-iis-vs-nginx</td>
 </tr>  
