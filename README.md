@@ -136,9 +136,8 @@ The web interface is not automatically linked to an existing Ansible installatio
 <td class="tg-0pky">Outdated. Poor social features.</td>
 <td class="tg-0pky">&nbsp;</td>
 </tr>
-</tr>
 <tr>
-<td class="tg-0pky" rowspan="2">Web Server</td>
+<td class="tg-0pky" rowspan="1">Web Server</td>
 <td class="tg-fymr"><strong>NGNX</strong></td>
 <td class="tg-0pky">Processes only static content</td>
 </tr>  
