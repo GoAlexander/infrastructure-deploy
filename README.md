@@ -118,7 +118,7 @@ The web interface is not automatically linked to an existing Ansible installatio
 <td class="tg-0pky">&nbsp;</td>
 </tr>
 <tr>
-<td class="tg-0pky" rowspan="4">"Frontend"</td>
+<td class="tg-0pky" rowspan="4">"Frontend"<br />(repository, issues tracker,<br />communication, review,<br />collaboration)</td>
 <td class="tg-fymr"><strong>GitHub</strong></td>
 <td class="tg-0pky">Standart de-facto</td>
 <td class="tg-0pky">&nbsp;</td>
@@ -129,6 +129,7 @@ The web interface is not automatically linked to an existing Ansible installatio
 <td class="tg-0pky">More features as in Github</td>
 <td class="tg-0pky">On Windows does not use pure Windows env (Cygwin)</td>
 <td class="tg-0pky">&nbsp;</td>
+</td>
 </tr>
 <tr>
 <td class="tg-0pky">Gerrit + Jira</td>
