@@ -142,7 +142,6 @@ The web interface is not automatically linked to an existing Ansible installatio
 <td class="tg-0pky">Documentation and support<br />Modularity<br />Centralized configuration<br />Administrators are responsible for security<br />Has proxy server</td>
 <td class="tg-0pky">Processes only static content</td>
 <td class="tg-0pky">Will be used for artifacts sharing. Link: https://stackshare.io/stackups/apache-httpd-vs-microsoft-iis-vs-nginx</td>
-</tr>
 <tr>
 <td class="tg-0pky">Apache</td>
 <td class="tg-0pky">Documentation and support<br />Modularity<br />Distributed configuration<br />Processes dynamic and static content</td>
