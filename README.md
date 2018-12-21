@@ -137,8 +137,8 @@ The web interface is not automatically linked to an existing Ansible installatio
 <td class="tg-0pky">&nbsp;</td>
 </tr>
 <tr>
-<td class="tg-0pky" rowspan="3">Web Server</td>
-<td class="tg-fymr"><strong>Nginx</strong></td>
+<td class="tg-0pky" rowspan="7">Web Server</td>
+<td class="tg-fymr"><strong>NGNX</strong></td>
 <td class="tg-0pky">Documentation and support<br />Modularity<br />Centralized configuration<br />Administrators are responsible for security<br />Has proxy server</td>
 <td class="tg-0pky">Processes only static content</td>
 </tr>
