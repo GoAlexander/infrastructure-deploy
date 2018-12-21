@@ -118,7 +118,7 @@ The web interface is not automatically linked to an existing Ansible installatio
 <td class="tg-0pky">&nbsp;</td>
 </tr>
 <tr>
-<td class="tg-0pky" rowspan="4">"Frontend"<br />(repository, issues tracker,<br />communication, review,<br />collaboration)</td>
+<td class="tg-0pky" rowspan="4">"Frontend"<br />(repository, issues tracker,<br />communication, review,<br />collaboration);</td>
 <td class="tg-fymr"><strong>GitHub</strong></td>
 <td class="tg-0pky">Standart de-facto</td>
 <td class="tg-0pky">&nbsp;</td>
@@ -140,6 +140,8 @@ The web interface is not automatically linked to an existing Ansible installatio
 <td class="tg-0pky" rowspan="2">Web Server</td>
 <td class="tg-fymr"><strong>NGNX</strong></td>
 <td class="tg-0pky">Processes only static content</td>
+</tr>  
+<tr>
 <td class="tg-0pky">Apache</td>
 <td class="tg-0pky">Documentation and support<br />Modularity<br />Distributed configuration<br />Processes dynamic and static content</td>
 <td class="tg-0pky">Distributed configuration<br />Users are responsible for security </td>
