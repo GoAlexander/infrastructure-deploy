@@ -206,6 +206,7 @@ The web interface is not automatically linked to an existing Ansible installatio
 sudo apt-get install openssh-server mc net-tools nginx screen
 sudo apt install python3-pip
 
+# take nginx configuration from our repository
 sudo nano /etc/nginx/nginx.conf
 service nginx restart
 
@@ -220,6 +221,10 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 
 ## On virtual machines
 ```
+# General packages
+sudo apt-get install python3-pip git
+sudo apt-get install mc htop
+  
 # Buildbot packages
 # On master
 sudo pip3 install buildbot==1.5 buildbot-console-view==1.5 buildbot-www==1.5
