@@ -219,6 +219,28 @@ users #check list of users
 sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 ```
 
+## Installation of Ansible on Ubuntu host
+Install Ansible:
+```
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo apt-add-repository --yes --update ppa:ansible/ansible
+sudo apt-get install ansible
+```
+Test Ansible installation:
+```
+# Run this by name this file hello_world.yml and run the following in the same directory
+# ansible-playbook hello_world.yml -i 'local,' --connection=local
+
+- hosts:
+  - local
+  tasks:
+  - name: Hello World!
+    shell: echo "Hi! Ansible is working."
+  - name: Create a directory
+    file: path=hello_world state=directory
+```
+
 ## On virtual machines
 ```
 # General packages
