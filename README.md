@@ -242,6 +242,7 @@ Test Ansible installation:
 ```
 
 ## On virtual machines
+Install packages:
 ```
 # General packages
 sudo apt-get install python3-pip git
@@ -254,6 +255,14 @@ sudo pip3 install buildbot==1.5 buildbot-console-view==1.5 buildbot-www==1.5
 # On worker
 sudo pip3 install buildbot-worker==1.5
 sudo pip3 install gitpython==2.1.5 tenacity==4.5.0 txrequests txgithub service_identity
+```
+Create Buildbot master (on VM for master):
+```
+buildbot create-master master
+```
+Create Buildbot worker (on VM for worker):
+```
+buildbot-worker create-worker --umask=0o2 "worker" "192.168.122.157:9000" "your_worker_name" "your_worker_pass"
 ```
 
 ## Credits
