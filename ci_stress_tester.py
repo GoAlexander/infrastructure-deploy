@@ -26,7 +26,7 @@ def create_commits(repo_path, number):
                                                             check=True,
                                                             stdout=subprocess.PIPE,
                                                             stderr=subprocess.STDOUT)
-        subprocess.run('git commit -a -m "{}"'.format(commit_message), cwd=str(repo_path), shell=True, 
+        subprocess.run('git commit -m "{}"'.format(commit_message), cwd=str(repo_path), shell=True, 
                                                                      check=True,
                                                                      stdout=subprocess.PIPE,
                                                                      stderr=subprocess.STDOUT)
