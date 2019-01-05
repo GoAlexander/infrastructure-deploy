@@ -1,0 +1,12 @@
+[Unit]
+Description=Buildbot worker service
+After=network.target
+
+[Service]
+User=osboxes
+Group=osboxes
+WorkingDirectory=/home/osboxes/buildbot/worker
+ExecStart=/usr/local/bin/buildbot-worker start
+
+[Install]
+WantedBy=buildbot-master.service
