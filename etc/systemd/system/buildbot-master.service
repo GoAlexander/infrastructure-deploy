@@ -1,0 +1,13 @@
+[Unit]
+Description=Buildbot master service
+After=network.target
+
+[Service]
+User=buildbot
+Group=buildbot
+WorkingDirectory=/home/osboxes/buildbot/master
+ExecStart=/home/osboxes/buildbot/master start
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
