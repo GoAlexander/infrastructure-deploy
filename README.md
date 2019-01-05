@@ -261,6 +261,18 @@ Create Buildbot master (on VM for master):
 ```
 buildbot create-master master
 ```
+Add auto load of master:
+```
+#copy buildbot-master.service file to the machine https://github.com/GoAlexander/infrastructure-deploy/tree/master/etc/systemd/system
+sudo systemctl restart buildbot-master
+
+#check status
+sudo systemctl status buildbot-master
+
+#if all is ok enable unit
+sudo systemctl enable buildbot-master
+```
+
 Create Buildbot worker (on VM for worker):
 ```
 buildbot-worker create-worker --umask=0o2 "worker" "192.168.122.157:9000" "your_worker_name" "your_worker_pass"
