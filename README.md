@@ -207,6 +207,7 @@ sudo apt-get install openssh-server mc net-tools nginx screen
 sudo apt install python3-pip
 
 # take nginx configuration from our repository
+# you can read more about nginx configuration here: http://docs.buildbot.net/current/manual/configuration/www.html?highlight=proxy#reverse-proxy-configuration
 sudo nano /etc/nginx/nginx.conf
 service nginx restart
 
