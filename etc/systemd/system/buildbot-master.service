@@ -3,10 +3,10 @@ Description=Buildbot master service
 After=network.target
 
 [Service]
-User=buildbot
-Group=buildbot
+User=osboxes
+Group=osboxes
 WorkingDirectory=/home/osboxes/buildbot/master
-ExecStart=/home/osboxes/buildbot/master start
+ExecStart=/usr/local/bin/buildbot start
 ExecReload=/bin/kill -HUP $MAINPID
 
 [Install]
